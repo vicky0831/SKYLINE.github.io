@@ -1,0 +1,148 @@
+ * {
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+
+
+        }
+
+        body {
+
+            height: 1800px;
+            width: 1500px;
+
+
+        }
+
+        .navbar {
+            position: relative;
+            background-color: black;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 60px;
+            cursor: pointer;
+            color: white;
+
+        }
+
+     
+        .material-symbols-outlined {
+            color: black;
+            background-color: white;
+            border: none;
+            padding-top: 2px;
+
+        }
+
+
+        #profile {
+
+            color: white;
+            background-color: black;
+            font-size: 37px;
+            margin-top: 5px;
+        }
+
+        #bag {
+            color: white;
+            background-color: black;
+            font-size: 35px;
+            margin-top: 5px;
+        }
+
+        #menu {
+            color: white;
+            background-color: black;
+            font-size: 37px;
+            margin-top: 5px;
+
+        }
+
+
+
+        .buy {
+
+            border: 0.5px solid;
+            border-radius: 9px;
+            background-color: white;
+            font-weight: 600;
+            font-size: 16px;
+            margin-top: 1em;
+
+        }
+
+        .buy:hover {
+            background-color: black;
+            /*background-color: #4fc3f7;*/
+            transition: 0.5s;
+            font-weight: 400;
+            color: aliceblue;
+            cursor: pointer;
+
+        }
+
+        .buy:active {
+
+            font-weight: 1000;
+
+
+        }
+
+
+
+
+        .video {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+
+            height: 25%;
+
+
+        }
+
+        .video video {
+            width: 100%;
+            max-height: 100%;
+            object-fit: fill;
+            aspect-ratio: 16 / 9;
+        }
+
+        .power {
+            display: flex;
+
+            width: 16em;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 5em;
+            margin-left: 3em;
+            margin-right: 3em;
+            padding: 5px 5px;
+            gap: 0.5em;
+
+
+
+        }
+
+        .high {
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 93.65em;
+            gap: 0.3em;
+            margin-top: 20px;
+
+        }
+
+        @media (max-width: 500px) {
+            .high {
+                flex-direction: column;
+                /* Change to column layout when viewport is less than 500px */
+                align-items: center;
+            }
+        }
